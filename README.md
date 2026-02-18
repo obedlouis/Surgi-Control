@@ -1,5 +1,5 @@
 #                                                       🏥 Surgi-Control
-                                              Interface Médicale Sans Contact sur STM32
+                                              **Interface Médicale Sans Contact sur STM32**
 
 #                                                           Description
 Surgi-Control est un système embarqué développé sur la carte B-L475E-IOT01A (STM32L475) permettant de contrôler un ordinateur sans contact, spécialement conçu pour les environnements médicaux stériles (bloc opératoire).
@@ -7,13 +7,13 @@ Surgi-Control est un système embarqué développé sur la carte B-L475E-IOT01A 
 #                                                           Objectif : 
 réduire les risques de contamination tout en conservant une interaction fluide avec les systèmes médicaux informatiques.
 
-# Le système remplace clavier et souris grâce à :
+**Le système remplace clavier et souris grâce à :**
 Reconnaissance gestuelle (capteur ToF)
 Analyse audio temps réel
 Émulation Clavier USB HID
 
 #                                                          Fonctionnalités
-# Navigation Gestuelle
+**Navigation Gestuelle**
 Capteur de distance VL53L0X connecté en I2C.
 | Geste détecté                   | Action PC       |
 | ------------------------------- | --------------- |
@@ -22,7 +22,7 @@ Capteur de distance VL53L0X connecté en I2C.
 | Mouvement rapide vers l’avant   | Zoom avant      |
 | Mouvement rapide vers l’arrière | Zoom arrière    |
 
-# 🔊 Commandes Audio (Claps)
+**Commandes Audio (Claps)**
 Microphone MEMS numérique (MP34DT01) via DFSDM.
 Détection de séquences rythmiques en temps réel :
 | Nombre de claps | Action        |
@@ -39,12 +39,12 @@ Architecture non bloquante (CPU optimisé)
 Reconnu nativement par : Windows (Microsoft Edge)
 
 #                                                       Architecture Technique
-# Matériels
+**Matériels**
 Carte : B-L475E-IOT01A
 Capteur distance : VL53L0X
 Microphone : MP34DT01 (MEMS numérique)
 
-# Périphériques STM32 Utilisés
+**Périphériques STM32 Utilisés**
 DMA → Transfert mémoire haute performance
 DFSDM → Acquisition audio PDM
 I2C → Communication capteur ToF
