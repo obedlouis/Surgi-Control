@@ -1,5 +1,5 @@
 #                                                       🏥 Surgi-Control
-                                              **Interface Médicale Sans Contact sur STM32**
+                                              Interface Médicale Sans Contact sur STM32
 
 #                                                           Description
 Surgi-Control est un système embarqué développé sur la carte B-L475E-IOT01A (STM32L475) permettant de contrôler un ordinateur sans contact, spécialement conçu pour les environnements médicaux stériles (bloc opératoire).
