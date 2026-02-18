@@ -7,7 +7,7 @@ Surgi-Control est un système embarqué développé sur la carte B-L475E-IOT01A 
 #                                                           Objectif : 
 réduire les risques de contamination tout en conservant une interaction fluide avec les systèmes médicaux informatiques.
 
-* **Le système remplace clavier et souris grâce à :**
+**Le système remplace clavier et souris grâce à :**
 * Reconnaissance gestuelle (capteur ToF)
 * Analyse audio temps réel
 * Émulation Clavier USB HID
@@ -32,17 +32,19 @@ Détection de séquences rythmiques en temps réel :
 | 3 claps         | Onglet gauche |
 | 4 claps         | Onglet droit  |
 
-Traitement audio via DMA + DFSDM
-Architecture non bloquante (CPU optimisé)
+* Traitement audio via DMA + DFSDM
+* Architecture non bloquante (CPU optimisé)
 
 #                                                           Interface PC
-Émulation USB HID Keyboard
-Reconnu nativement par : Windows (Microsoft Edge)
+* Émulation USB HID Keyboard
+* Reconnu nativement par : Windows (Microsoft Edge)
 
 #                                                       Architecture Technique
 **Matériels**
 Carte : B-L475E-IOT01A
+
 Capteur distance : VL53L0X
+
 Microphone : MP34DT01 (MEMS numérique)
 
 **Périphériques STM32 Utilisés**
