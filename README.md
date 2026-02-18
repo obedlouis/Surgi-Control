@@ -24,6 +24,7 @@ Capteur de distance VL53L0X connecté en I2C.
 
 **Commandes Audio (Claps)**
 Microphone MEMS numérique (MP34DT01) via DFSDM.
+
 Détection de séquences rythmiques en temps réel :
 | Nombre de claps | Action        |
 | --------------- | ------------- |
@@ -48,16 +49,17 @@ Capteur distance : VL53L0X
 Microphone : MP34DT01 (MEMS numérique)
 
 **Périphériques STM32 Utilisés**
-DMA → Transfert mémoire haute performance
-DFSDM → Acquisition audio PDM
-I2C → Communication capteur ToF
-USB Device (HID) → Émulation clavier
-Timers & Interruptions → Gestion temps réel
+* DMA → Transfert mémoire haute performance
+* DFSDM → Acquisition audio PDM
+* I2C → Communication capteur ToF
+* USB Device (HID) → Émulation clavier
+* Timers & Interruptions → Gestion temps réel
 
 #                                                       Architecture Fonctionnelle
-**Gestes (ToF) ──► Analyse Distance ──► Mapping Commande ──► USB HID
-Audio (MEMS) ──► DFSDM + DMA ──► Détection Claps ──► USB HID**
+* **Gestes (ToF) ──► Analyse Distance ──► Mapping Commande ──► USB HID**
+* **Audio (MEMS) ──► DFSDM + DMA ──► Détection Claps ──► USB HID**
 
 ## Auteur
 Développé dans le cadre du projet d'ingénierie (Cycle Ingénieur Instrumentation) par **Hiba SEBBAI et Obed LOUIS**
+
 Sup Galilée – Institut Galilée
