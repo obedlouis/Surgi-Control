@@ -7,10 +7,10 @@ Surgi-Control est un système embarqué développé sur la carte B-L475E-IOT01A 
 #                                                           Objectif : 
 réduire les risques de contamination tout en conservant une interaction fluide avec les systèmes médicaux informatiques.
 
-**Le système remplace clavier et souris grâce à :**
-Reconnaissance gestuelle (capteur ToF)
-Analyse audio temps réel
-Émulation Clavier USB HID
+* **Le système remplace clavier et souris grâce à :**
+* Reconnaissance gestuelle (capteur ToF)
+* Analyse audio temps réel
+* Émulation Clavier USB HID
 
 #                                                          Fonctionnalités
 **Navigation Gestuelle**
