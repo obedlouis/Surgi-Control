@@ -58,8 +58,3 @@ Microphone : MP34DT01 (MEMS numérique)
 #                                                       Architecture Fonctionnelle
 * **Gestes (ToF) ──► Analyse Distance ──► Mapping Commande ──► USB HID**
 * **Audio (MEMS) ──► DFSDM + DMA ──► Détection Claps ──► USB HID**
-
-## Auteur
-Développé dans le cadre du projet d'ingénierie (Cycle Ingénieur Instrumentation) par **Hiba SEBBAI et Obed LOUIS**
-
-Sup Galilée – Institut Galilée
