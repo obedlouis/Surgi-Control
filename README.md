@@ -17,10 +17,10 @@ réduire les risques de contamination tout en conservant une interaction fluide 
 Capteur de distance VL53L0X connecté en I2C.
 | Geste détecté                   | Action PC       |
 | ------------------------------- | --------------- |
-| Main stable à gauche            | Page précédente |
-| Main stable à droite            | Page suivante   |
-| Mouvement rapide vers l’avant   | Zoom avant      |
-| Mouvement rapide vers l’arrière | Zoom arrière    |
+| Main stable à entre 0 et 140mm du capteur            | Page précédente |
+| Main stable à entre 200 et 500mm du capteur              | Page suivante   |
+| Mouvement rapide du haut vers le bas   | Zoom avant      |
+| Mouvement rapide du bas vers le haut | Zoom arrière    |
 
 **Commandes Audio (Claps)**
 Microphone MEMS numérique (MP34DT01) via DFSDM.
