@@ -31,7 +31,7 @@ Détection de séquences rythmiques en temps réel :
 | 1 clap          | Scroll bas    |
 | 2 claps         | Scroll haut   |
 | 3 claps         | Onglet suivant |
-| 4 claps         | Onglet précédent  |
+| 4 claps         | Onglet précédent |
 
 * Traitement audio via DMA + DFSDM
 * Architecture non bloquante (CPU optimisé)
